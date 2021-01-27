@@ -43,10 +43,7 @@ module.exports = {
     ],
     "@typescript-eslint/member-ordering": ["error"],
     "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/consistent-type-assertions": [
-      "error",
-      { assertionStyle: "angle-bracket" },
-    ],
+    "@typescript-eslint/consistent-type-assertions": ["error", { assertionStyle: "angle-bracket" }],
     "@typescript-eslint/explicit-member-accessibility": [
       "error",
       {
