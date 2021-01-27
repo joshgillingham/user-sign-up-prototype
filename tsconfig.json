@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "noEmit": false,
+    "paths": {
+      "@app/*": [
+        "./src/*"
+      ],
+    },
+    "tsBuildInfoFile": "./tsconfig.build.tsbuildinfo",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "jsx": "react",
+    "lib": [
+      "es5",
+      "es6",
+      "es7",
+      "esnext",
+      "dom"
+    ],
+    "composite": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "declarationMap": true,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": false,
+    "noImplicitThis": true,
+    "pretty": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "./node_modules",
+    "./public",
+    "./dist",
+    "./lib",
+  ]
+}

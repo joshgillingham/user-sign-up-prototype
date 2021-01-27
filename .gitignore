@@ -1,0 +1,16 @@
+# Logs
+*.log*
+
+# Dependency directories
+node_modules/
+
+# Optional eslint cache
+.eslintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Build directories and files
+dist/
+lib
+tsconfig.build*

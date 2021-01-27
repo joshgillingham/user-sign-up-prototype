@@ -1,0 +1,39 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "editor.rulers": [
+    100
+  ],
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true,
+  },
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  // Configure glob patterns for excluding files and folders in the file explorer.
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/.DS_Store": true,
+    ".*cache": true // hide linting cache files
+  },
+  "typescript.tsdk": ".\\node_modules\\typescript\\lib",
+  "eslint.alwaysShowStatus": true,
+  "eslint.options": {
+    "extensinons": [
+      ".ts",
+      ".js",
+      ".tsx",
+      ".jsx"
+    ]
+  },
+  "npm.packageManager": "yarn",
+  "cSpell.words": [
+    "esnext",
+    "fluentui",
+    "formik",
+    "react",
+  ],
+  "eslint.packageManager": "yarn",
+  "prettier.packageManager": "yarn"
+}
